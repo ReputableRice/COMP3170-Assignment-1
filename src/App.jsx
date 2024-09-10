@@ -8,9 +8,9 @@ function App() {
       <div className="artist-profile">
         <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_BTmQbqrJQll2erHpQJjO_pJ6EM-zdLPCoPl1FWlSttBb9xgJPwkA8bMEvT7FdcYkMEKvNcNtm1gQB_g10UL0BUogpTOukRJN0YNlHQ" alt="a smiling man with wavy hair and paint over his closed eyes" />
         <div className="discography">
-          <h2>Fuji Kaze Albums</h2>
+          <h1>Fuji Kaze Albums</h1>
           <details name="Fuji Kaze" open="false">
-            <summary>LOVE SERVES ALL</summary>
+            <summary>Love Serves All</summary>
             <ol>
               <li>Kirari</li>
               <li>Matsuri</li>
@@ -24,7 +24,7 @@ function App() {
             </ol>
           </details>
           <details name="Fuji Kaze" open="false">
-            <summary>LOVE ALL COVERS ALL</summary>
+            <summary>Love All Covers All</summary>
             <ol>
               <li>Sunny</li>
               <li>No Tears Left To Cry</li>

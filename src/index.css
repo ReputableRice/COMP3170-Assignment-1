@@ -9,7 +9,12 @@ body {
 summary {
   list-style: none;
   border-bottom: 0.2rem solid lightgray;
-  font-size: 2rem;
+  font-size: 1.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 1rem;
 } 
 
 summary::-webkit-details-marker {
@@ -18,7 +23,8 @@ summary::-webkit-details-marker {
 
 summary::after {
   content: '+';
-  display: flex;
+
+  padding-right: 1rem;
 }
 
 details[open] summary:after {
@@ -48,4 +54,11 @@ img {
 
 .discography {
   width: 30vw;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.discography h1 {
+  margin: auto;
 }
