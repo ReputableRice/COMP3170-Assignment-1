@@ -1,6 +1,7 @@
 import Album from './components/Album/index.jsx'
 
 function App() {
+  const testNumbers = [1, 2, 3, 4, 5];
 
   return (
     <body>
@@ -8,7 +9,7 @@ function App() {
       <div className="artist-profile">
         <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_BTmQbqrJQll2erHpQJjO_pJ6EM-zdLPCoPl1FWlSttBb9xgJPwkA8bMEvT7FdcYkMEKvNcNtm1gQB_g10UL0BUogpTOukRJN0YNlHQ" alt="a smiling man with wavy hair and paint over his closed eyes" />
         <div className="discography">
-          <h1>Fuji Kaze Albums</h1>
+          <h2>Fuji Kaze Albums</h2>
           <details name="Fuji Kaze" open="false">
             <summary>Love Serves All</summary>
             <ol>
@@ -39,6 +40,7 @@ function App() {
               <li>Circles</li>
             </ol>
           </details>
+          <Album />
         </div>
       </div>
     </body>
