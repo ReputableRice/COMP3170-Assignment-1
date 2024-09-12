@@ -10,8 +10,9 @@ function App() {
       <div className="artist-profile">
         <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_BTmQbqrJQll2erHpQJjO_pJ6EM-zdLPCoPl1FWlSttBb9xgJPwkA8bMEvT7FdcYkMEKvNcNtm1gQB_g10UL0BUogpTOukRJN0YNlHQ" alt="a smiling man with wavy hair and paint over his closed eyes" />
         <div className="discography">
-          <Album songTitles={albumOne} albumName="Love Serves All"/>
-          <Album songTitles={albumTwo} albumName="Love All Covers All"/>
+          <h1 className="artist-name">Fuji Kaze Albums</h1>
+          <Album songTitles={albumOne} albumName="Love Serves All" />
+          <Album songTitles={albumTwo} albumName="Love All Covers All" />
         </div>
       </div>
     </body>
