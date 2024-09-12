@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Album({ songTitles = [1, 2, 3, 4, 5] }) {
+export default function Album({ songTitles, albumName}) {
     // const songTitles = [1, 2, 3, 4, 5];
     const listItems = songTitles.map((songTitle) =>
         <li key={songTitle.toString()}>
@@ -11,7 +11,7 @@ export default function Album({ songTitles = [1, 2, 3, 4, 5] }) {
     return (
         <>
             <details name="Fuji Kaze" open="false">
-                <summary>Love All Covers All</summary>
+                <summary>{albumName}</summary>
                 <ol>
                     {listItems}
                 </ol>
